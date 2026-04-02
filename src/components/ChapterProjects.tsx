@@ -95,7 +95,7 @@ export default function ChapterProjects() {
                   
                   {/* Image placeholder with halftone overlay */}
                   <div className="relative mb-4 border-2 border-manga-ink dark:border-manga-offwhite overflow-hidden">
-                    <div className="aspect-video bg-gradient-to-br from-manga-ink/10 to-manga-ink/30 dark:from-manga-offwhite/10 dark:to-manga-offwhite/30 flex items-center justify-center">
+                    <div className="aspect-video bg-linear-to-br from-manga-ink/10 to-manga-ink/30 dark:from-manga-offwhite/10 dark:to-manga-offwhite/30 flex items-center justify-center">
                       <div className="absolute inset-0 halftone-large opacity-20" />
                       <div className="text-center relative z-10">
                         <span className="font-bangers text-2xl opacity-50">MISSION FILE</span>
