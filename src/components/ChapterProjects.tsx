@@ -31,6 +31,15 @@ const projects = [
     github: 'https://github.com/vivekbhattacharya01-gif/CodeWave',
     color: 'blue',
   },
+  {
+    name: 'MetroSense',
+    subtitle: 'AI-Powered Delhi Metro Companion',
+    description: 'Original AI-powered companion app for Delhi Metro commuters. Ask in plain English — get routes, fares, interchange info and smart travel tips instantly powered by Groq LLaMA 3.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Groq LLaMA 3', 'shadcn/ui'],
+    liveDemo: 'https://metro-sense.netlify.app',
+    github: 'https://github.com/vivekbhattacharya01-gif/Metro-sense',
+    color: 'red',
+  },
 ]
 
 export default function ChapterProjects() {
@@ -60,7 +69,10 @@ export default function ChapterProjects() {
             const isHovered = hoveredIndex === index
             
             // Vary sizes like real manga
-            const colSpan = index === 0 ? 'lg:col-span-4' : index === 1 ? 'lg:col-span-2 lg:row-span-2' : 'lg:col-span-4'
+            const colSpan = index === 0 ? 'lg:col-span-4' 
+                          : index === 1 ? 'lg:col-span-2 lg:row-span-2' 
+                          : index === 2 ? 'lg:col-span-4'
+                          : 'lg:col-span-6'
             
             return (
               <motion.div
