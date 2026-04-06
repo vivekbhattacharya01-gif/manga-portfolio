@@ -209,7 +209,7 @@ export default function ChapterContact() {
                 <p className="font-marker text-sm mb-3 opacity-60">CONNECT</p>
                 <div className="flex gap-4 justify-center">
                   <motion.a
-                    href="https://github.com/vivekbhattacharya01"
+                    href="https://github.com/vivekbhattacharya01-gif"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1, rotate: 5 }}
